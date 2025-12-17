@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+psycopg2-binary
+SQLAlchemy>=2.0
+python-dotenv
+alembic
+pydantic
+passlib[bcrypt]
+python-jose[cryptography]
+mongoengine
+bcrypt
+pandas

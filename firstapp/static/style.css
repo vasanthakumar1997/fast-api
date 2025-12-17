@@ -1,0 +1,29 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+
+  font-weight: bold; /* makes labels bold */
+
+}
+
+.register-form input {
+    width: 30%;
+    height: 20px;
+}
+
+.register-form textarea {
+    height: 50px;
+    min-height: 50px;
+    max-width: 200px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.register-form button {
+    margin-top: 10px;
+    height: 20px;
+    width: 30%;
+}
