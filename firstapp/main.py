@@ -4,5 +4,5 @@ from fastapi.staticfiles import StaticFiles
 import os
 app = FastAPI()
 
-app.mount("/static", StaticFiles(directory=f"{os.getcwd}/firstapp/static"), name="static")
+app.mount("/static", StaticFiles(directory=f"{os.getcwd()}/firstapp/static"), name="static")
 app.include_router(v1)
