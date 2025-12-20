@@ -1,6 +1,10 @@
 import pandas as pd
+import os
 
-samp = pd.read_csv("/mnt/c/Users/Vasanth/fastapi/firstapp/organizations-100.csv")
-df = samp.dropna()
-print("dataframe",df)
+cwd = os.getcwd()
+print("cwd", f"{cwd}/sample")
+
+# samp = pd.read_csv("/mnt/c/Users/Vasanth/fastapi/firstapp/organizations-100.csv")
+# df = samp.dropna()
+# print("dataframe",df)
 

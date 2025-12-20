@@ -5,9 +5,10 @@ from ...database.model import User
 from fastapi.responses import JSONResponse
 from fastapi.templating import Jinja2Templates
 from mongoengine.connection import get_connection
+import os
 v1 = APIRouter()
 
-templates = Jinja2Templates(directory= "/mnt/c/Users/Vasanth/fastapi/firstapp/templates")
+templates = Jinja2Templates(directory= f"{os.getcwd()}/firstapp/templates")
 
 
 @v1.get('/home')
